@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.color {
+    background-color: #F3D7B7;
+}
+
+.container1 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3D7B7;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    gap: 90px;
+    background-color: #F3D7B7;
+    height: 760px;
+    align-items: start;
+    height: 650px;
+}
+
+.section1_box1 {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    margin-top: 120px;
+
+}
+
+.section1_box1 h2 {
+    font-size: 64px;
+
+}
+
+.section1_box1 p {
+    font-size: large;
+}
+
+.section1_box2 {
+    margin-top: 120px;
+
+}
+
+a {
+    color: black;
+}
+
+.img1 {
+    position: absolute;
+    top: 30px;
+    left: 690px;
+    animation-name: dumaloq;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    z-index: 2;
+
+
+}
+
+@keyframes dumaloq {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.color {
+
+    height: 700px;
+}
+
+.section5 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 30px;
+}
+
+.section6 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section6 h1 {
+    font-size: xx-large;
+}
+
+.section7 {
+    margin-top: 140px;
+    display: flex;
+    gap: 70px;
+    background-color: #C99B67;
+    color: white;
+    align-items: center;
+    height: 500px;
+
+
+}
+
+.section8 h1 {
+    font-size: xx-large;
+}
+
+.section8 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 600px;
+}
+
+.img11 {
+    position: absolute;
+    top: 1100px;
+
+}
+
+.container3 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+}
+
+footer {
+    background-color: #F3D7B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.color1 {
+    background-color: #F3D7B7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.box77 {
+    display: flex;
+    gap: 30px;
+}
